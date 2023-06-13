@@ -8,9 +8,9 @@ app = Flask(__name__)
 # client = Cloudant(, url="")
 # client = Cloudant.iam("YmAyXYha4ESFcGI--eim6XBuET1xE412UhYQcA81FT7L", "https://64d6c53a-6850-49f7-8aef-0dbac919dc28-bluemix.cloudantnosqldb.appdomain.cloud")
 # authenticator = CouchDbSessionAuthenticator("64d6c53a-6850-49f7-8aef-0dbac919dc28-bluemix", "YmAyXYha4ESFcGI--eim6XBuET1xE412UhYQcA81FT7L")
-authenticator = IAMAuthenticator('YmAyXYha4ESFcGI--eim6XBuET1xE412UhYQcA81FT7L')
-cloudant = CloudantV1(authenticator=authenticator)
-cloudant.set_service_url("https://64d6c53a-6850-49f7-8aef-0dbac919dc28-bluemix.cloudantnosqldb.appdomain.cloud")
+# authenticator = IAMAuthenticator('YmAyXYha4ESFcGI--eim6XBuET1xE412UhYQcA81FT7L')
+# cloudant = CloudantV1(authenticator=authenticator)
+# cloudant.set_service_url("https://64d6c53a-6850-49f7-8aef-0dbac919dc28-bluemix.cloudantnosqldb.appdomain.cloud")
 
 
 
